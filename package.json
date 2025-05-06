@@ -1,0 +1,27 @@
+{
+  "name": "json-columnar-compression",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/afuh-christian/json-columnar-compression",
+  "repository": {
+    "url": "https://github.com/afuh-christian/json-columnar-compression.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "json",
+    "columnar",
+    "compression",
+    "decompression"
+  ],
+  "author": "afuh-christian",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
