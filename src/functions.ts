@@ -12,7 +12,6 @@ export function CompressJsonToColumnar(jsonData:any): any{
     let array : any = []
     for(let i = 0; i < keys.length; i++){
       let key = keys[i]
-      // let value = jsonData[key]
        array.push([key ,Array.isArray(jsonData)?
             jsonData?.map((item) => {
               if(Array.isArray(item?.[key])){
