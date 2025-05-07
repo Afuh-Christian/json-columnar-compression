@@ -4,7 +4,7 @@
 <h1>Json to Columnar Compression </h1> 
 
 <ul>
-<li>Efficiently Converts Json to Columnar version and back for faster transmission and storage </li>
+<li>Efficiently converts JSON to columnar format and back, enabling faster transmission and reduced storage. </li>
 <li> This approach is especially beneficial when working with large datasets . </li>
 <li> You can provide JSON in any structure or format. </li>
 </ul>
