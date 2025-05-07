@@ -99,7 +99,7 @@ const decompressed = DecompressColumnarToJson(compressed)
 ```
 
 
-<h2> Use CDN link for none node projects </h2>
+<h2> Or Use CDN link </h2>
 
 ```html
 
