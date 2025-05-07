@@ -35,25 +35,63 @@ const array = [
     "name": "Bob",
     "age": 34,
     "city": "Los Angeles",
-    "children": [
-      { "id": 21, "name": "Ben", "age": 8 }
-    ]
+    "children": [{ "id": 21, "name": "Ben", "age": 8 }]
   },
-  {
-    "id": 3,
-    "name": "Charlie",
-    "age": 25,
-    "city": "Chicago",
-    "children": []
-  }
+  { "id": 3, "name": "Charlie", "age": 25, "city": "Chicago", "children": null }
 ]
 
 
 
 const compressed = CompressJsonToColumnar(array)
 
-const decompssed = DecompressColumnarToJson(compressed)
+// console.log(compressed)
+// [
+//   ["id", [1, 2, 3]],
+//   ["name", ["Alice", "Bob", "Charlie"]],
+//   ["age", [28, 34, 25]],
+//   ["city", ["New York", "Los Angeles", "Chicago"]],
+//   [
+//     "children",
+//     [
+//       [
+//         ["id", [11, 12]],
+//         ["name", ["Anna", "Alex"]],
+//         ["age", [5, 7]]
+//       ],
+//       [
+//         ["id", [21]],
+//         ["name", ["Ben"]],
+//         ["age", [8]]
+//       ],
+//       null
+//     ]
+//   ]
+// ]
 
+
+const decompressed = DecompressColumnarToJson(compressed)
+
+// console.log(decompressed)
+// [
+//   {
+//     "id": 1,
+//     "name": "Alice",
+//     "age": 28,
+//     "city": "New York",
+//     "children": [
+//       { "id": 11, "name": "Anna", "age": 5 },
+//       { "id": 12, "name": "Alex", "age": 7 }
+//     ]
+//   },
+//   {
+//     "id": 2,
+//     "name": "Bob",
+//     "age": 34,
+//     "city": "Los Angeles",
+//     "children": [{ "id": 21, "name": "Ben", "age": 8 }]
+//   },
+//   { "id": 3, "name": "Charlie", "age": 25, "city": "Chicago", "children": null }
+// ]
 
 
 ```
