@@ -104,7 +104,7 @@ const decompressed = DecompressColumnarToJson(compressed)
 ```html
 
   <script src="
-https://cdn.jsdelivr.net/npm/json-columnar-compression@0.0.8/dist/index.min.js
+https://cdn.jsdelivr.net/npm/json-columnar-compression@0.0.9/dist/index.min.js
 "></script>
 
 
