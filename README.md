@@ -98,3 +98,15 @@ const decompressed = DecompressColumnarToJson(compressed)
 
 ```
 
+
+<h2> Use CDN link for none node projects </h2>
+
+```html
+
+  <script src="
+https://cdn.jsdelivr.net/npm/json-columnar-compression@0.0.8/dist/index.min.js
+"></script>
+
+
+
+```
