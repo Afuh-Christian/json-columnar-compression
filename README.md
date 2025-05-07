@@ -5,6 +5,8 @@
 
 <ul>
 <li>Efficiently Converts Json to Columnar version and back for faster transmission and storage </li>
+<li> This approach is especially beneficial when working with large datasets . </li>
+<li> You can provide JSON in any structure or format. </li>
 </ul>
 
 </div>
