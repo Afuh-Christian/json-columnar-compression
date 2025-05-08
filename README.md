@@ -107,6 +107,4 @@ const decompressed = DecompressColumnarToJson(compressed)
 https://cdn.jsdelivr.net/npm/json-columnar-compression@0.0.9/dist/index.min.js
 "></script>
 
-
-
 ```
